@@ -2210,4 +2210,14 @@ Wire Wire Line
 	6450 4650 6700 4650
 Wire Wire Line
 	6700 4650 6700 4750
+Text Notes 5750 6100 0    50   ~ 0
+Short JP10 to pull-up if 2OE is not inverted,\nShort JP9 to pull-down if 2OE is inverted like 1OE.\n(Depends on IC)
+Text Notes 8250 1250 0    50   ~ 0
+Short JP6, JP8 for Core2\nShort JP5, JP7 for others
+Text Notes 9650 5100 0    50   ~ 0
+Short JP1, JP2 for PWM Servo\nShort JP3, JP4 for Serial Servo
+Text Notes 6150 3450 0    50   ~ 0
+M-BUS
+Text Notes 6150 2450 0    50   ~ 0
+UART
 $EndSCHEMATC
